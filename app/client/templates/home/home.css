@@ -1,0 +1,64 @@
+/*****************************************************************************/
+/* Home: Style */
+/*****************************************************************************/
+html{
+    background-color: #212121;
+}
+.container{
+    padding:0px!important;
+    margin:0px!important;
+}
+.headerStripe{
+    background-color: #E45641;
+    height: 10px;
+}
+.headerBar{
+    background-color: #303030;
+    height: 50px;
+    line-height: 45px;
+    text-align: right;
+}
+.headerBar a{
+    color: #FFFFFF;
+}
+.content{
+    padding: 55px;
+    background-color: #212121;
+    text-align:center;
+    color: white;
+    font-family:monospace;
+}
+.elonPicture{
+    border: 2px solid #303030;
+}
+.URLInput{
+    background-color: #E45641 !important;
+    border:none !important;
+    color: white !important;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+.shortenButtonDiv{
+    padding: 30px;
+}
+.shortenURLButton{
+    height: 40px;
+    width: 100%;
+    background-color: #E45641 !important;
+    outline:none;
+}
+.disclaimer{
+    height: 100%;
+}
+.progressList{
+    padding-top: 20px;
+    text-align: left !important;
+}
+.progressList li{
+    padding: 5px;
+}
+/*Changing the colour of placeholder text in URL input */
+::-webkit-input-placeholder { color: #D3D3D3 !important; }
+::-moz-placeholder {color: #D3D3D3 !important; }
+:-ms-input-placeholder { color: #D3D3D3 !important; }
+:-o-input-placeholder { color: #D3D3D3 !important; }
